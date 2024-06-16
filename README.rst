@@ -29,6 +29,10 @@ Example
 
 Here is an example of the rendering you can get with this plugin on the wait screen:
 
+.. image:: https://github.com/bero158/pibooth-myip/blob/main/docs/images/waitscreen.png
+   :align: center
+   :alt: Example screenshot
+
 .. --- Links ------------------------------------------------------------------
 
 .. _`pibooth`: https://pypi.org/project/pibooth
@@ -37,3 +41,4 @@ Here is an example of the rendering you can get with this plugin on the wait scr
    :target: https://www.python.org/downloads
    :alt: Python 3.6+
 
+https://github.com/bero158/pibooth-myip/blob/main/docs/images/waitscreen.png
