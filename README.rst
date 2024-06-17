@@ -10,7 +10,7 @@ pibooth-myip
 This plugin makes installation of the photobooth without attached keyboard and mouse on the site easier.
 The idea is to show IP address of the ``pibooth`` computer after installation of the photobooth on the site for easier remote access.
 
-This plugin adds display of IP addresses associated to the computer at the first (waiting) screen.
+This plugin adds display of IPv4 addresses associated to the computer at the first (waiting) screen.
 If debug mode is on plugin displays IP address on every waiting screen.
 IP addresses are re-evaluated every wait state entry and then every ten seconds.
 It adds detected IP addresses to start messages with 'INFO' level.
