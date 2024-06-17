@@ -19,6 +19,8 @@ def getIPList():
                         addrList.append(addr)
     return addrList
 
-def getIPStr(addrList : list = getIPList(), sep : str = ", "):
+def getIPStr(addrList : list = None, sep : str = ", "):
+    if not addrList:
+        addrList = getIPList()
     addrStr = sep.join(addrList)
     return addrStr
