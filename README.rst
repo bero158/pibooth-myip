@@ -1,7 +1,7 @@
 
-==============
+============
 pibooth-myip
-==============
+============
 
 |PythonVersions|
 
@@ -19,9 +19,11 @@ Install
 -------
 
 Install netifaces::
+
    pip3 install netifaces
 
-Upload the plugin somewhere and append the absolute path to your pibooth.cfg (~/.config/pibooth/pibooth.cfg) to parameter 'plugins'::
+Download the plugin and append the absolute path at the end of parameter 'plugins' of your pibooth.cfg (~/.config/pibooth/pibooth.cfg)::
+
    plugins = "/home/pi/pibooth/pibooth-myip/pibooth_myip.py"
 
 Configuration
