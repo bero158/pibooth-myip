@@ -18,8 +18,8 @@ Install
 -------
 
 Install netifaces (pip3 install netifaces)
-Upload the plugin somewhere and appent the absolute path to your pibooth.cfg (~/.config/pigooth/pibooth.cfg) to parameter 'plugins'
-aka: plugins = "/home/pi/pibooth/pibooth-myip/pibooth_myip.py"
+Upload the plugin somewhere and append the absolute path to your pibooth.cfg (~/.config/pibooth/pibooth.cfg) to parameter 'plugins'::
+   plugins = "/home/pi/pibooth/pibooth-myip/pibooth_myip.py"
 
 Configuration
 -------------
@@ -42,5 +42,3 @@ Here is an example of the rendering you can get with this plugin on the wait scr
 .. |PythonVersions| image:: https://img.shields.io/badge/python-3.6+-red.svg
    :target: https://www.python.org/downloads
    :alt: Python 3.6+
-
-https://github.com/bero158/pibooth-myip/blob/main/docs/images/waitscreen.png
