@@ -7,10 +7,12 @@ pibooth-myip
 
 ``pibooth-myip`` is a plugin for the `pibooth`_ application.
 
+The idea is to show IP address of the ``pibooth`` computer without keyboard and mouse after installation on the site for easier remote access.
+
 This plugin adds display of IP addresses associated to the computer at the first (waiting) screen.
 If debug mode is on plugin displays IP address on every waiting screen.
-IP addresses are re-evaluated every wait state entry.
-It adds detected IP addresses as info to start messages.
+IP addresses are re-evaluated every wait state entry and then every ten seconds.
+It adds detected IP addresses to start messages with 'INFO' level.
 
 Install
 -------
