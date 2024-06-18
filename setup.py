@@ -31,8 +31,8 @@ def main():
             'Topic :: Multimedia :: Graphics :: Capture :: Digital Camera',
         ],
         author="Tomas Beran",
-        url="https://github.com/pibooth/pibooth-qrcode",
-        download_url="https://github.com/pibooth/pibooth-qrcode/archive/{}.tar.gz".format(plugin.__version__),
+        url="https://github.com/bero158/pibooth-myip",
+        download_url="https://github.com/bero158/pibooth-myip/archive/refs/tags/pibooth-plugin.tar.gz",
         license='GPLv3',
         platforms=['unix', 'linux'],
         keywords=[
