@@ -58,6 +58,9 @@ def draw_bg(surface,rect):
 @pibooth.hookimpl
 def state_wait_do(app, win):
     if hasattr(app, 'pibooth_myip_data'):
+        if hasattr(app,"plugin_gallery"):
+            if app.plugin_gallery["active"]:
+                return #hide when gallery from gallery plugin is active
         show_texts(app.pibooth_myip_data["texts"],win)
         now = time.time()
         if (app.pibooth_myip_data["last_scan"] + 10 < now):
