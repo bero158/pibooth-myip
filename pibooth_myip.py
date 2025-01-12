@@ -8,6 +8,9 @@ import pibooth
 import getips
 from pibooth.view.background import multiline_text_to_surfaces
 from pibooth.utils import LOGGER
+SECTION = 'MY IP'
+IP_LBL = 'IP:'
+
 
 __version__ = "1.0.0"
 
@@ -71,6 +74,16 @@ def state_wait_do(app, win):
             "last_scan": time.time()
         })
          
+@pibooth.hookimpl
+def pibooth_configure(cfg):
+    """Actions performed after loading of the configuration file or when the
+    plugin is enabled for the first time. The ``cfg`` object is an instance
+    of :py:class:`ConfigParser` class.
 
-
-    
+    :param cfg: application configuration
+    """
+    """Declare the new configuration options"""
+    cfg.add_option(SECTION, "IP" , "" ,
+                   "Descr",
+                   getips.getIPStr(), "" )
+    LOGGER.debug("pibooth_myip - Configure options added" )
